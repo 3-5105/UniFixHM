@@ -37,7 +37,7 @@ Compilation System: Windows LTSC 2019; Version number 10.0.17763.5206
 
 IDE: Visual Studio 2022 Community Edition
 
-Main Language: C++ (the vast majority), Assembly Language (a very small part)
+Main Language: C++
 
 Operating Environment: Windows XP or newer versions
 
