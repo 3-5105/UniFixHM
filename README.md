@@ -18,7 +18,7 @@ c. Run VNIS Edit again, and the patch will take effect (it may trigger an antivi
 
 #1 Project Overview
 
-This project, named UniFixHM v1.19, is a Unicode patch provided for VNIS Edit. Here is its detailed description:
+This project, named UniFixHM, is a Unicode patch provided for VNIS Edit. Here is its detailed description:
 
 HM NIS Edit (also known as VNIS Edit) is an open-source software designed to provide an easy-to-use GUI editor for NSIS.
 
