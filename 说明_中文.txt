@@ -1,0 +1,62 @@
+#0 快速开始：写给一般用户
+如果您不是开发人员，可以按照以下步骤快速使用本补丁，无需阅读其余部分：
+a.将说明文件同目录下的 version.dll 复制到相应位置。
+b.关闭 VNIS Edit。
+c.再次运行 VNIS Edit，补丁即生效（可能会触发杀毒软件报警，请允许其运行）。
+
+
+
+#1 项目概述
+本项目名为 UniFixHM v1.19，是为 VNIS Edit 提供的 Unicode 补丁。以下是其详细说明
+HM NIS Edit（又称 VNIS Edit）是一个开源软件，旨在为 NSIS 提供一个易于使用的 GUI 编辑器。
+它最初由来自哥斯达黎加的开发者 Hector Mauricio Rodriguez Segura 开发，使用 Delphi 5 并设计用于 Win32 系统。自 2005 年以来，该软件未发布更新。
+UniFixHM 的目的是解决 HM NIS Edit 由于年代久远而无法正确打开 Unicode 编码文件的问题。
+由于软件的开发环境过于陈旧，作者无法重编译其源代码，因此采用了较为冗余的补丁方法来实现此功能。
+
+
+
+#2 基本信息
+编译系统：Windows LTSC 2019；版本号 10.0.17763.5206
+IDE：Visual Studio 2022 社区版
+主要语言：C++（绝大部分）、汇编语言（极少部分）
+运行环境：Windows XP 或更新版本
+使用的库：C++ 标准库、Windows API 库、MinHook（已包含于工程文件中）
+
+
+
+#3 功能实现
+本补丁通过钩取 WinAPI 的方式，在 ReadFile、WriteFile、SetFilePointer 上设置钩子，插入代码以支持 Unicode 编码。以下是简要描述：
+
+ReadFile：检查是否为 NSIS 脚本文件，若是则检查其编码并进行转码，否则按正常流程处理。
+WriteFile：将编辑器输出的数据转换为 UTF-8 编码并写入 BOM 和转码后的数据。
+SetFilePointer：检查是否为 NSIS 脚本文件且是获取文件大小操作，若是则返回转码后数据的大小而非文件大小，否则按正常流程处理。
+
+
+
+#4 文件结构
+│ readme.txt		说明文件（本文件）
+│ UniFixHM.sln		工程主文件
+│ version.dll		已编译的示例文件
+└─ UniFixHM		工程主文件夹
+        Conv.cpp		编码转换相关实现
+        Conv.h		编码转换相关定义
+        dllmain.cpp		DLL 主文件：定义 DLL 入口点
+        hook.cpp		钩子相关实现
+        hook.h		钩子相关定义
+        libMinHook.x86.lib	MinHook 库：静态库文件
+        MinHook.h		MinHook 库：头文件
+        UniFixHM.vcxproj	工程配置文件
+        UniFixHM.vcxproj.filters	工程配置文件
+        UniFixHM.vcxproj.user	工程配置文件
+
+
+
+#5 作者
+本项目由 3-5105 开发。
+联系邮箱：h0910262022@163.com
+欢迎提出任何有价值的意见、批评与建议
+
+
+
+#6 许可证
+使用MIT许可证
