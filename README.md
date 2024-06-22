@@ -1,5 +1,6 @@
 # UniFixHM
 为Vnsi edit编辑器提供包括Unicode编码文本文件支持
+
 The author's native language is Chinese, and this description is an AI-generated translation
 
 #0 Quick Start: For General Users
