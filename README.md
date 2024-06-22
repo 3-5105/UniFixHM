@@ -41,7 +41,7 @@ Main Language: C++
 
 Operating Environment: Windows XP or newer versions
 
-Libraries Used: C++ Standard Library, Windows API Library, MinHook (included in the project files)
+Libraries Used: C++ Standard Library, Windows API Library, Detours (included in the project files)
 
 
 
@@ -60,35 +60,23 @@ SetFilePointer: Check if it is an NSIS script file and if it is an operation to 
 
 
 
-#4 File Structure
+#4 Main document description:
 
-│ readme.txt		Instruction file (this file)
+│ UniFixHM.sln			Main project file
 
-│ UniFixHM.sln		Main project file
+│ version.dll			A compiled example file
 
-│ version.dll		A compiled example file
+└─ UniFixHM				Main project folder
 
-└─ UniFixHM		Main project folder
-
-      Conv.cpp		Encoding conversion implementation
+      Conv.cpp			Encoding conversion implementation
       
-      Conv.h 		Encoding conversion definitions
+      Conv.h 			Encoding conversion definitions
       
-      dllmain.cpp		DLL main file: Defines the DLL entry point
+      dllmain.cpp			DLL main file: Defines the DLL entry point
       
-      hook.cpp		Hook implementation
+      hook.cpp			Hook implementation
       
-      hook.h		Hook definitions
-      
-      libMinHook.x86.lib	MinHook library: Static library file
-      
-      MinHook.h		MinHook library: Header file
-      
-      UniFixHM.vcxproj	Project configuration file
-      
-      UniFixHM.vcxproj.filters	Project configuration file
-      
-      UniFixHM.vcxproj.user	Project configuration file
+      hook.h			Hook definitions
 
 
 
