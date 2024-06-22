@@ -1,20 +1,25 @@
 # UniFixHM
 为Vnsi edit编辑器提供包括Unicode编码文本文件支持
 
+Provides support for the Vnsi edit editor including Unicode-encoded text files
+
+中文说明参见“说明_中文.txt”
+
 The author's native language is Chinese, and this description is an AI-generated translation
+
+#################################
 
 #0 Quick Start: For General Users
 
 If you are not a developer, you can follow these steps to quickly use this patch without reading the rest:
 
-a. Copy the version.dll in the same directory as the instruction file to the appropriate location.
+a. Copy version.dll to vnsiedit.exe in the same directory
 
-b. Close VNIS Edit.
-
-c. Run VNIS Edit again, and the patch will take effect (it may trigger an antivirus alarm, please allow it to run).
+b. Run VNIS Edit again, and the patch will take effect (it may trigger an antivirus alarm, please allow it to run).
 
 
 
+#################################
 
 #1 Project Overview
 
@@ -30,6 +35,7 @@ Because the development environment of the software is too outdated, the author 
 
 
 
+#################################
 
 #2 Basic Information
 
@@ -41,45 +47,50 @@ Main Language: C++
 
 Operating Environment: Windows XP or newer versions
 
-Libraries Used: C++ Standard Library, Windows API Library, Detours (included in the project files)
+Libraries Used: C++ Standard Library, Windows API Library, Detours (Detours included in the project files)
 
 
 
+#################################
 
 #3 Functional Implementation
 
-This patch supports Unicode encoding by hooking into WinAPI in ReadFile, WriteFile, and SetFilePointer. Here is a brief description:
+This patch sets hooks on WINAPI ReadFile, WriteFile, and SetFilePointer by hooking the WinAPI, and inserts code to support Unicode encoding.
+
+A function with the prefix "DT_" followed by the winapi function name is a hook function of the corresponding winapi that takes over the work of the corresponding winapi, which is briefly described below:
 
 
-ReadFile: Check if it is an NSIS script file, if so, check its encoding and transcode it; otherwise, process it normally.
+DT_ReadFile: Check if it is an NSIS script file, if so, check its encoding and transcoding, otherwise it will be processed as normal.
 
-WriteFile: Convert the data output by the editor into UTF-8 encoding and write the BOM and transcoded data.
+DT_WriteFile: Converts the data output from the editor to UTF-8 encoding and writes to the BOM and transcoded data.
 
-SetFilePointer: Check if it is an NSIS script file and if it is an operation to get the file size; if so, return the size of the transcoded data instead of the file size; otherwise, process it normally.
+DT_SetFilePointer: Check whether it is a NSIS script file and it is an operation to get the file size, if so, return the size of the transcoded data instead of the file size, otherwise it will be processed according to the normal process.
 
 
 
+#################################
 
 #4 Main document description:
 
-│ UniFixHM.sln			Main project file
+│ UniFixHM.sln		Main project file
 
-│ version.dll			A compiled example file
+│ version.dll		A compiled example file
 
-└─ UniFixHM				Main project folder
+└─ UniFixHM			Main project folder
 
-      Conv.cpp			Encoding conversion implementation
+      Conv.cpp		Encoding conversion implementation
       
-      Conv.h 			Encoding conversion definitions
+      Conv.h 		Encoding conversion definitions
       
-      dllmain.cpp			DLL main file: Defines the DLL entry point
+      dllmain.cpp		DLL main file: Defines the DLL entry point
       
-      hook.cpp			Hook implementation
+      hook.cpp		Hook implementation
       
-      hook.h			Hook definitions
+      hook.h		Hook definitions
 
 
 
+#################################
 
 #5 Author
 
@@ -91,6 +102,7 @@ Any valuable opinions, criticisms, and suggestions are welcome.
 
 
 
+#################################
 
 #6 License
 
