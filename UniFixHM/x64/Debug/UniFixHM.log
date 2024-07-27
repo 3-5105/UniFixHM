@@ -1,0 +1,12 @@
+﻿  Conv.cpp
+  detours.cpp
+  dllmain.cpp
+  hook.cpp
+  正在生成代码...
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\Conv.cpp(107,1): error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\Detours\include\detours.cpp(1852,9): warning C4005: “DETOURS_EIP”: 宏重定义
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\Detours\include\detours.cpp(1856,9): warning C4005: “DETOURS_EIP”: 宏重定义
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\Detours\include\detours.cpp(1860,9): warning C4005: “DETOURS_EIP”: 宏重定义
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\Detours\include\detours.cpp(2605,1): error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(284,1): error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\hook.cpp(34,1): error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?

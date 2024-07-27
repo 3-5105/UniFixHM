@@ -1,0 +1,1562 @@
+﻿  dllmain.cpp
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(166,67): warning C4244: “初始化”: 从“LONGLONG”转换到“unsigned int”，可能丢失数据
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(171,24): warning C4244: “参数”: 从“LONGLONG”转换到“size_t”，可能丢失数据
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(172,34): warning C4244: “参数”: 从“LONGLONG”转换到“size_t”，可能丢失数据
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(173,26): warning C4244: “=”: 从“LONGLONG”转换到“int”，可能丢失数据
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(279,27): warning C4309: “=”: 截断常量值
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(280,27): warning C4309: “=”: 截断常量值
+C:\Users\3_5105\Desktop\UniFixHM\UniFixHM\dllmain.cpp(281,27): warning C4309: “=”: 截断常量值
+  正在启动传递 1
+  已处理 /DEFAULTLIB: uuid.lib
+  已处理 /DEFAULTLIB: Shlwapi.lib
+  已处理 /DEFAULTLIB: msvcprt
+  已处理 /DEFAULTLIB: MSVCRT
+  已处理 /DEFAULTLIB: OLDNAMES
+  已处理 /DEFAULTLIB: Detours/lib.X86/detours.lib
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+        已找到 __imp__MultiByteToWideChar@24
+          已在 Conv.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__WideCharToMultiByte@32
+          已在 Conv.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualProtect@16
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualFree@12
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _GetCurrentProcess@0
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualAlloc@16
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _GetCurrentThreadId@0
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _SuspendThread@4
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _ResumeThread@4
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _GetLastError@0
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _GetCurrentThread@0
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualProtectEx@20
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _GetThreadContext@8
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _FlushInstructionCache@12
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _SetThreadContext@8
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualQuery@12
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _VirtualQueryEx@16
+          已在 detours.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__ReadFile@20
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetFileSizeEx@8
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__WriteFile@20
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__SetFilePointer@16
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetModuleHandleA@4
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetSystemDirectoryA@8
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__LoadLibraryA@4
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__FreeLibrary@4
+          已在 dllmain.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetFinalPathNameByHandleA@16
+          已在 hook.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetProcAddress@8
+          已在 hook.obj 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __IMPORT_DESCRIPTOR_KERNEL32
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __NULL_IMPORT_DESCRIPTOR
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 KERNEL32_NULL_THUNK_DATA
+          已在 kernel32.lib(KERNEL32.dll) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+        已找到 __imp__MessageBoxA@16
+          已在 hook.obj 中引用
+          已加载 user32.lib(USER32.dll)
+        已找到 __IMPORT_DESCRIPTOR_USER32
+          已在 user32.lib(USER32.dll) 中引用
+          已加载 user32.lib(USER32.dll)
+        已找到 USER32_NULL_THUNK_DATA
+          已在 user32.lib(USER32.dll) 中引用
+          已加载 user32.lib(USER32.dll)
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+        已找到 __imp__PathFindExtensionA@4
+          已在 hook.obj 中引用
+          已加载 Shlwapi.lib(SHLWAPI.dll)
+        已找到 __IMPORT_DESCRIPTOR_SHLWAPI
+          已在 Shlwapi.lib(SHLWAPI.dll) 中引用
+          已加载 Shlwapi.lib(SHLWAPI.dll)
+        已找到 SHLWAPI_NULL_THUNK_DATA
+          已在 Shlwapi.lib(SHLWAPI.dll) 中引用
+          已加载 Shlwapi.lib(SHLWAPI.dll)
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+        已找到 @__security_check_cookie@4
+          已在 Conv.obj 中引用
+          已加载 MSVCRT.lib(secchk.obj)
+        已找到 "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+          已在 Conv.obj 中引用
+          已加载 MSVCRT.lib(delete_array.obj)
+        已找到 "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+          已在 Conv.obj 中引用
+          已加载 MSVCRT.lib(new_array.obj)
+        已找到 __except_handler4
+          已在 detours.obj 中引用
+          已加载 MSVCRT.lib(chandler4gs.obj)
+        已找到 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          已在 detours.obj 中引用
+          已在 MSVCRT.lib(new_array.obj) 中引用
+          已加载 MSVCRT.lib(new_scalar.obj)
+        已找到 "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          已在 detours.obj 中引用
+          已加载 MSVCRT.lib(delete_scalar_size.obj)
+        已找到 __DllMainCRTStartup@12
+          已加载 MSVCRT.lib(dll_dllmain.obj)
+        已找到 ___report_gsfailure
+          已在 MSVCRT.lib(secchk.obj) 中引用
+          已加载 MSVCRT.lib(gs_report.obj)
+        已找到 ___security_cookie
+          已在 MSVCRT.lib(secchk.obj) 中引用
+          已在 MSVCRT.lib(chandler4gs.obj) 中引用
+          已在 MSVCRT.lib(gs_report.obj) 中引用
+          已加载 MSVCRT.lib(gs_cookie.obj)
+        已找到 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          已在 MSVCRT.lib(delete_array.obj) 中引用
+          已在 MSVCRT.lib(delete_scalar_size.obj) 中引用
+          已加载 MSVCRT.lib(delete_scalar.obj)
+        已找到 "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ)
+          已在 MSVCRT.lib(new_scalar.obj) 中引用
+          已加载 MSVCRT.lib(throw_bad_alloc.obj)
+        已找到 ___security_init_cookie
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(gs_support.obj)
+        已找到 "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(tncleanup.obj)
+        已找到 ___scrt_initialize_default_local_stdio_options
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(default_local_stdio_options.obj)
+        已找到 ___scrt_is_nonwritable_in_current_image
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(utility.obj)
+        已找到 ___scrt_get_dyn_tls_init_callback
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(dyn_tls_init.obj)
+        已找到 ___scrt_fastfail
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 MSVCRT.lib(utility_desktop.obj)
+        已找到 __RTC_Initialize
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(initsect.obj)
+        已找到 __SEH_prolog4
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 MSVCRT.lib(sehprolg4.obj)
+        已找到 ___xi_a
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 MSVCRT.lib(initializers.obj)
+  已处理 /DEFAULTLIB: kernel32.lib
+   已处理 /DISALLOWLIB: msvcrtd.lib
+   已处理 /DISALLOWLIB: libcmt.lib
+   已处理 /DISALLOWLIB: libcmtd.lib
+  已处理 /DEFAULTLIB: vcruntime.lib
+   已处理 /DISALLOWLIB: vcruntimed.lib
+   已处理 /DISALLOWLIB: libvcruntime.lib
+   已处理 /DISALLOWLIB: libvcruntimed.lib
+  已处理 /DEFAULTLIB: ucrt.lib
+   已处理 /DISALLOWLIB: ucrtd.lib
+   已处理 /DISALLOWLIB: libucrt.lib
+   已处理 /DISALLOWLIB: libucrtd.lib
+        已找到 ___guard_check_icall_fptr
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已在 MSVCRT.lib(initsect.obj) 中引用
+          已加载 MSVCRT.lib(guard_support.obj)
+        已找到 "const type_info::`vftable'" (??_7type_info@@6B@)
+          已在 MSVCRT.lib(throw_bad_alloc.obj) 中引用
+          已加载 MSVCRT.lib(std_type_info_static.obj)
+        已找到 ___isa_available_init
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 MSVCRT.lib(cpu_disp.obj)
+        已找到 __get_startup_argv_mode
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 MSVCRT.lib(argv_mode.obj)
+        已找到 ___scrt_is_ucrt_dll_in_use
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 MSVCRT.lib(ucrt_detection.obj)
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+        已找到 _DetourCopyInstruction@20
+          已在 detours.obj 中引用
+          已加载 detours.lib(disasm.obj)
+        已找到 _DetourGetModuleSize@4
+          已在 detours.lib(disasm.obj) 中引用
+          已加载 detours.lib(modules.obj)
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+        已找到 ___CxxFrameHandler3
+          已在 dllmain.obj 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___std_terminate
+          已在 dllmain.obj 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 __except_handler4_common
+          已在 MSVCRT.lib(chandler4gs.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___std_exception_copy
+          已在 MSVCRT.lib(throw_bad_alloc.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___std_exception_destroy
+          已在 MSVCRT.lib(throw_bad_alloc.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 __CxxThrowException@8
+          已在 MSVCRT.lib(throw_bad_alloc.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___std_type_info_destroy_list
+          已在 MSVCRT.lib(tncleanup.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___current_exception
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 ___current_exception_context
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 _memset
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已在 detours.lib(modules.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 _memcpy
+          已在 detours.lib(disasm.obj) 中引用
+          已在 detours.lib(modules.obj) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 __IMPORT_DESCRIPTOR_VCRUNTIME140
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+        已找到 VCRUNTIME140_NULL_THUNK_DATA
+          已在 vcruntime.lib(VCRUNTIME140.dll) 中引用
+          已加载 vcruntime.lib(VCRUNTIME140.dll)
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+        已找到 __callnewh
+          已在 MSVCRT.lib(new_scalar.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        已找到 _malloc
+          已在 MSVCRT.lib(new_scalar.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        已找到 __initterm
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __initterm_e
+          已在 MSVCRT.lib(dll_dllmain.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 _free
+          已在 MSVCRT.lib(delete_scalar.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        已找到 __seh_filter_dll
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __configure_narrow_argv
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __initialize_narrow_environment
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __initialize_onexit_table
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __register_onexit_function
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __execute_onexit_table
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __crt_atexit
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __crt_at_quick_exit
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __cexit
+          已在 MSVCRT.lib(utility.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 _terminate
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 _strcmp
+          已在 detours.lib(modules.obj) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        已找到 __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0
+          已在 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        已找到 __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0
+          已在 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        已找到 api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA
+          已在 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        已找到 api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA
+          已在 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        已找到 api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA
+          已在 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中引用
+          已加载 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+        已找到 __imp__UnhandledExceptionFilter@4
+          已在 MSVCRT.lib(gs_report.obj) 中引用
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__SetUnhandledExceptionFilter@4
+          已在 MSVCRT.lib(gs_report.obj) 中引用
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__TerminateProcess@8
+          已在 MSVCRT.lib(gs_report.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__IsProcessorFeaturePresent@4
+          已在 MSVCRT.lib(gs_report.obj) 中引用
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已在 MSVCRT.lib(cpu_disp.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__QueryPerformanceCounter@4
+          已在 MSVCRT.lib(gs_support.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetCurrentProcessId@0
+          已在 MSVCRT.lib(gs_support.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetSystemTimeAsFileTime@4
+          已在 MSVCRT.lib(gs_support.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__InitializeSListHead@4
+          已在 MSVCRT.lib(tncleanup.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__IsDebuggerPresent@0
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetStartupInfoW@4
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 __imp__GetModuleHandleW@4
+          已在 MSVCRT.lib(utility_desktop.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _SetLastError@4
+          已在 detours.lib(disasm.obj) 中引用
+          已在 detours.lib(modules.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _LoadLibraryExA@12
+          已在 detours.lib(modules.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+        已找到 _LoadLibraryExW@12
+          已在 detours.lib(modules.obj) 中引用
+          已加载 kernel32.lib(KERNEL32.dll)
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在生成 .exp 文件
+    正在创建库 C:\Users\3_5105\Desktop\UniFixHM\Release\UniFixHM.lib 和对象 C:\Users\3_5105\Desktop\UniFixHM\Release\UniFixHM.exp
+  已完成 .exp 文件生成
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+        已找到 __filter_x86_sse2_floating_point_exception_default
+          已加载 MSVCRT.lib(x86_exception_filter.obj)
+        已找到 ___scrt_stub_for_acrt_initialize
+          已加载 MSVCRT.lib(ucrt_stubs.obj)
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  已完成传递 1
+      已丢弃 ___castguard_check_failure_user_handled_fptr(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::symInfo" (?symInfo@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4U2@A)(从 detours.lib(modules.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO * `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::pSymInfo" (?pSymInfo@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4PAU2@A)(从 detours.lib(modules.obj) 中)
+      已丢弃 "int `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::failed" (?failed@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4HA)(从 detours.lib(modules.obj) 中)
+      已丢弃 ___CastGuardVftablesStart(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___CastGuardVftablesEnd(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 user32.lib(USER32.dll) 中)
+      已丢弃“.idata$4”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$4”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__VirtualProtectEx@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__VirtualQueryEx@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__MessageBoxA@16(从 user32.lib(USER32.dll) 中)
+      已丢弃 __imp____current_exception(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __imp____current_exception_context(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __imp___register_onexit_function(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp___crt_atexit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp___crt_at_quick_exit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp__terminate(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp__strcmp(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃 __imp__GetStartupInfoW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__GetModuleHandleW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__LoadLibraryExA@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__LoadLibraryExW@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 user32.lib(USER32.dll) 中)
+      已丢弃“.idata$6”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$6”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃“.xdata$x”(从 detours.lib(modules.obj) 中)
+      已丢弃 _VirtualProtectEx@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualQueryEx@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _MessageBoxA@16(从 user32.lib(USER32.dll) 中)
+      已丢弃 __CRT_INIT@12(从 MSVCRT.lib(dll_dllmain.obj) 中)
+      已丢弃 ___report_rangecheckfailure(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 ___report_securityfailure(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 ___report_securityfailureEx(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 "private: __thiscall std::bad_alloc::bad_alloc(char const * const)" (??0bad_alloc@std@@AAE@QBD@Z)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: __thiscall std::exception::exception(char const * const,int)" (??0exception@std@@QAE@QBDH@Z)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 "bool __cdecl is_potentially_valid_image_base(void * const)" (?is_potentially_valid_image_base@@YA_NQAX@Z)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _NtCurrentTeb(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 __onexit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _at_quick_exit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _atexit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 ___scrt_get_show_window_mode(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_initialize_mta(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_initialize_winrt(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_is_managed_app(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_set_unhandled_exception_filter(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_unhandled_exception_filter@4(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 __SEH_epilog4(从 MSVCRT.lib(sehprolg4.obj) 中)
+      已丢弃 _ReadNoFence(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 _ReadPointerNoFence(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 __InlineInterlockedExchangePointer(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_debugbreak(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_fastfail(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_nop(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_os_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_os_handled_wrapper(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_user_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_user_handled_wrapper(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_compat_check(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_set_user_handler(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_debugbreak(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_fastfail(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_nop(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_os_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_user_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_compat_check(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 __guard_icall_checks_enforced(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)(从 MSVCRT.lib(std_type_info_static.obj) 中)
+      已丢弃 "protected: unsigned char * __thiscall CDetourDis::CopyBytesRax(struct CDetourDis::COPYENTRY const *,unsigned char *,unsigned char *)" (?CopyBytesRax@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z)(从 detours.lib(disasm.obj) 中)
+      已丢弃 "public: static int __cdecl CDetourDis::SanityCheckSystem(void)" (?SanityCheckSystem@CDetourDis@@SAHXZ)(从 detours.lib(disasm.obj) 中)
+      已丢弃 "public: static int __cdecl CDetourDis::SetCodeModule(unsigned char *,unsigned char *,int)" (?SetCodeModule@CDetourDis@@SAHPAE0H@Z)(从 detours.lib(disasm.obj) 中)
+      已丢弃 _DetourSetCodeModule@8(从 detours.lib(disasm.obj) 中)
+      已丢弃 "int __stdcall DetourEnumerateImportsThunk(void *,unsigned long,char const *,void * *)" (?DetourEnumerateImportsThunk@@YGHPAXKPBDPAPAX@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)" (?DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ)(从 detours.lib(modules.obj) 中)
+      已丢弃 "void * __stdcall GetPayloadSectionFromModule(struct HINSTANCE__ *)" (?GetPayloadSectionFromModule@@YGPAXPAUHINSTANCE__@@@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "unsigned char * __cdecl RvaAdjust(struct _IMAGE_DOS_HEADER *,unsigned long)" (?RvaAdjust@@YAPAEPAU_IMAGE_DOS_HEADER@@K@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCchCatA(char *,unsigned int,char const *)" (?StringCchCatA@@YGJPADIPBD@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCchCopyA(char *,unsigned int,char const *)" (?StringCchCopyA@@YGJPADIPBD@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCopyWorkerA(char *,unsigned int,unsigned int *,char const *,unsigned int)" (?StringCopyWorkerA@@YGJPADIPAIPBDI@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringLengthWorkerA(char const *,unsigned int,unsigned int *)" (?StringLengthWorkerA@@YGJPBDIPAI@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringValidateDestA(char const *,unsigned int,unsigned int)" (?StringValidateDestA@@YGJPBDII@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringValidateDestAndLengthA(char const *,unsigned int,unsigned int *,unsigned int)" (?StringValidateDestAndLengthA@@YGJPBDIPAII@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateExports@12(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateImports@16(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateImportsEx@16(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateModules@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindFunction@8(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindPayload@12(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindPayloadEx@8(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFreePayload@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetContainingModule@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetEntryPoint@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetModuleSize@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetSizeOfPayloads@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourRestoreAfterWith@0(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourRestoreAfterWithEx@8(从 detours.lib(modules.obj) 中)
+      已丢弃 ___current_exception(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 ___current_exception_context(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __register_onexit_function(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __crt_atexit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __crt_at_quick_exit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 _terminate(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 _strcmp(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃 _GetStartupInfoW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetModuleHandleW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _LoadLibraryExA@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _LoadLibraryExW@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 ___guard_xfg_check_icall_fptr(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_os_handled_fptr(从 MSVCRT.lib(guard_support.obj) 中)
+  正在生成代码
+  4 of 88 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+  已完成库搜索
+  正在搜索库
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\MSVCRT.lib:
+        已找到 __load_config_used
+          已加载 MSVCRT.lib(loadcfg.obj)
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib:
+      正在搜索 Detours\lib.X86\detours.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\vcruntime.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x86\ucrt.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\kernel32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\user32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib:
+      正在搜索 C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\Shlwapi.lib:
+      正在搜索 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib:
+  已完成库搜索
+  正在调用 rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\3_5105\AppData\Local\Temp\lnk{408A0E8C-C873-4F4E-9944-9D32FE740CBE}.tmp"
+   "C:\Users\3_5105\AppData\Local\Temp\lnk{4B09E986-60B0-4F85-B6AE-86C9C2C238D8}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Using codepage 936 as default
+  Creating C:\Users\3_5105\AppData\Local\Temp\lnk{408A0E8C-C873-4F4E-9944-9D32FE740CBE}.tmp
+  
+  
+  C:\Users\3_5105\AppData\Local\Temp\lnk{4B09E986-60B0-4F85-B6AE-86C9C2C238D8}.tmp.
+  Writing 24:2,	lang:0x409,	size 145
+  正在调用 cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\3_5105\AppData\Local\Temp\lnk{9E645C30-7BB9-4123-B99A-5A2163DC4A4C}.tmp"
+   /readonly
+   "C:\Users\3_5105\AppData\Local\Temp\lnk{408A0E8C-C873-4F4E-9944-9D32FE740CBE}.tmp"
+  Microsoft(R) Windows Resource To Object Converter 版本 14.40.33811.0
+  版权所有 (C) Microsoft Corporation。保留所有权利。
+  
+  正在添加资源。类型: MANIFEST，名称: 2，语言: 0x0409，标记: 0x30，大小: 145
+  未使用的库:
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x86\odbccp32.lib
+    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\msvcprt.lib
+    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x86\OLDNAMES.lib
+  正在处理 /ORDER 选项
+    未在 /ORDER 文件中列出的外部代码对象:
+          terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _RTC_Initialize		; MSVCRT.lib(initsect.obj)
+          _register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+          ??_Gbad_alloc@std@@UAEPAXI@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??_C@_0BG@GEGOAKFF@GetFileVersionInfoExW@		; dllmain.obj
+          _imp__GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          DetourRestoreAfterWith@0		; detours.lib(modules.obj)
+          strcmp		; ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          ??_R2type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          ReadFile@20		; kernel32.lib(KERNEL32.dll)
+          VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
+          ?Copy0F@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          __report_rangecheckfailure		; MSVCRT.lib(gs_report.obj)
+          ??_R1A@?0A@EA@bad_alloc@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          __scrt_get_dyn_tls_init_callback		; MSVCRT.lib(dyn_tls_init.obj)
+          malloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _CRT_INIT@12		; MSVCRT.lib(dll_dllmain.obj)
+          _guard_icall_checks_enforced		; MSVCRT.lib(guard_support.obj)
+          _imp__ResumeThread@4		; kernel32.lib(KERNEL32.dll)
+          _CTA3?AVbad_array_new_length@std@@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_dllmain_uninitialize_critical		; MSVCRT.lib(utility.obj)
+          _imp___crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          DetourCopyInstruction@20		; detours.lib(disasm.obj)
+          __scrt_stub_for_is_c_termination_complete		; MSVCRT.lib(ucrt_stubs.obj)
+          __castguard_check_failure_nop		; MSVCRT.lib(guard_support.obj)
+          _imp__SetThreadContext@8		; kernel32.lib(KERNEL32.dll)
+          DetourEnumerateExports@12		; detours.lib(modules.obj)
+          ??_C@_0BI@EGKIMOGO@GetFileVersionInfoSizeW@		; dllmain.obj
+          ??3@YAXPAXI@Z		; MSVCRT.lib(delete_scalar_size.obj)
+          _imp___seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??0bad_array_new_length@std@@QAE@XZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
+          _imp__FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+          _initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+          _imp__GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          ??_C@_0BA@IKMKGJBE@VerInstallFileA@		; dllmain.obj
+          ??0exception@std@@QAE@QBDH@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??_R1A@?0A@EA@type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          _imp____CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          WriteFile@20		; kernel32.lib(KERNEL32.dll)
+          _initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_Gbad_array_new_length@std@@UAEPAXI@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?__scrt_initialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          _TI2?AVbad_alloc@std@@		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??3@YAXPAX@Z		; MSVCRT.lib(delete_scalar.obj)
+          __castguard_slow_path_check_user_handled		; MSVCRT.lib(guard_support.obj)
+          ReadPointerNoFence		; MSVCRT.lib(guard_support.obj)
+          _execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_stub_for_acrt_uninitialize		; MSVCRT.lib(ucrt_stubs.obj)
+          _imp__free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          ?Copy0F00@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _load_config_used		; MSVCRT.lib(loadcfg.obj)
+          ??_C@_0BC@EOODALEL@Unknown?5exception@		; MSVCRT.lib(throw_bad_alloc.obj)
+          __scrt_dllmain_before_initialize_c		; MSVCRT.lib(utility.obj)
+          ??_R3type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          __scrt_get_show_window_mode		; MSVCRT.lib(utility_desktop.obj)
+          __current_exception		; vcruntime.lib(VCRUNTIME140.dll)
+          _SEH_epilog4		; MSVCRT.lib(sehprolg4.obj)
+          GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          GetCurrentThread@0		; kernel32.lib(KERNEL32.dll)
+          ?CopyVexCommon@CDetourDis@@IAEPAEEPAE0@Z		; detours.lib(disasm.obj)
+          _SEH_prolog4		; MSVCRT.lib(sehprolg4.obj)
+          PathFindExtensionA@4		; Shlwapi.lib(SHLWAPI.dll)
+          ??_C@_04GHEGCOBB@?4nsh@		; hook.obj
+          ??0bad_alloc@std@@AAE@QBD@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          SetThreadContext@8		; kernel32.lib(KERNEL32.dll)
+          ?CopyInstruction@CDetourDis@@QAEPAEPAE0@Z		; detours.lib(disasm.obj)
+          ??_C@_0N@BBJCENDC@VerFindFileW@		; dllmain.obj
+          ??1bad_alloc@std@@UAE@XZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?__scrt_throw_std_bad_alloc@@YAXXZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp___initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?Copy66@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??2@YAPAXI@Z		; MSVCRT.lib(new_scalar.obj)
+          ?what@exception@std@@UBEPBDXZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          ??_R3bad_alloc@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+          ??_C@_0P@EGBPEC@VerQueryValueA@		; dllmain.obj
+          __scrt_dllmain_exception_filter		; MSVCRT.lib(utility.obj)
+          _imp____current_exception_context		; vcruntime.lib(VCRUNTIME140.dll)
+          ?CopyFF@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _imp__GetSystemDirectoryA@8		; kernel32.lib(KERNEL32.dll)
+          _imp____std_exception_destroy		; vcruntime.lib(VCRUNTIME140.dll)
+          ?CopyEvex@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_7exception@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ		; detours.lib(modules.obj)
+          ?SetCodeModule@CDetourDis@@SAHPAE0H@Z		; detours.lib(disasm.obj)
+          __scrt_dllmain_uninitialize_c		; MSVCRT.lib(utility.obj)
+          _except_handler4		; MSVCRT.lib(chandler4gs.obj)
+          ??_R4exception@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          DetourEnumerateModules@4		; detours.lib(modules.obj)
+          GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          __castguard_check_failure_user_handled		; MSVCRT.lib(guard_support.obj)
+          _imp__GetFinalPathNameByHandleA@16		; kernel32.lib(KERNEL32.dll)
+          __scrt_is_nonwritable_in_current_image		; MSVCRT.lib(utility.obj)
+          ??_7bad_array_new_length@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ		; MSVCRT.lib(utility.obj)
+          __scrt_initialize_onexit_tables		; MSVCRT.lib(utility.obj)
+          ??_R1A@?0A@EA@bad_array_new_length@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__MultiByteToWideChar@24		; kernel32.lib(KERNEL32.dll)
+          __std_exception_copy		; vcruntime.lib(VCRUNTIME140.dll)
+          GetSystemDirectoryA@8		; kernel32.lib(KERNEL32.dll)
+          __dyn_tls_init_callback
+          ??0bad_array_new_length@std@@QAE@ABV01@@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??1type_info@@UAE@XZ		; MSVCRT.lib(std_type_info_static.obj)
+          ?CopyF6@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_R0?AVbad_array_new_length@std@@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          ResumeThread@4		; kernel32.lib(KERNEL32.dll)
+          __scrt_dllmain_after_initialize_c		; MSVCRT.lib(utility.obj)
+          ??_C@_0BE@JIHADGJK@GetFileVersionInfoA@		; dllmain.obj
+          __CastGuardVftablesStart		; MSVCRT.lib(guard_support.obj)
+          ??_U@YAPAXI@Z		; MSVCRT.lib(new_array.obj)
+          @__security_check_cookie@4		; MSVCRT.lib(secchk.obj)
+          LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+          memset		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__SuspendThread@4		; kernel32.lib(KERNEL32.dll)
+          ?SanityCheckSystem@CDetourDis@@SAHXZ		; detours.lib(disasm.obj)
+          _imp___crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_C@_0P@BMNOKKJF@VerQueryValueW@		; dllmain.obj
+          DetourGetSizeOfPayloads@4		; detours.lib(modules.obj)
+          ??_C@_0BG@HIPGLPIC@GetFileVersionInfoExA@		; dllmain.obj
+          _seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          __scrt_initialize_default_local_stdio_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          __guard_check_icall_fptr		; MSVCRT.lib(guard_support.obj)
+          ?Invalid@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _imp___except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          ?CopyBytesRax@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _imp___CxxThrowException@8		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp___initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___callnewh		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          __scrt_release_startup_lock		; MSVCRT.lib(utility.obj)
+          IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          ??_R2bad_alloc@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          __scrt_uninitialize_crt		; MSVCRT.lib(utility.obj)
+          _imp__GetThreadContext@8		; kernel32.lib(KERNEL32.dll)
+          _imp__GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+          _imp____std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          MultiByteToWideChar@24		; kernel32.lib(KERNEL32.dll)
+          _imp__VirtualQuery@12		; kernel32.lib(KERNEL32.dll)
+          _imp__GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          _RTC_Terminate		; MSVCRT.lib(initsect.obj)
+          GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+          __scrt_is_ucrt_dll_in_use		; MSVCRT.lib(ucrt_detection.obj)
+          __isa_available_init		; MSVCRT.lib(cpu_disp.obj)
+          __scrt_stub_for_acrt_uninitialize_critical		; MSVCRT.lib(ucrt_stubs.obj)
+          __report_securityfailureEx		; MSVCRT.lib(gs_report.obj)
+          VirtualQuery@12		; kernel32.lib(KERNEL32.dll)
+          _imp__IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          ??_R4bad_alloc@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          _imp__FlushInstructionCache@12		; kernel32.lib(KERNEL32.dll)
+          DetourGetContainingModule@4		; detours.lib(modules.obj)
+          IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          DetourEnumerateImports@16		; detours.lib(modules.obj)
+          ??_C@_0BK@MODCDHIO@GetFileVersionInfoSizeExA@		; dllmain.obj
+          __scrt_fastfail		; MSVCRT.lib(utility_desktop.obj)
+          __castguard_check_failure_user_handled_fptr		; MSVCRT.lib(guard_support.obj)
+          UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12		; MSVCRT.lib(throw_bad_alloc.obj)
+          VirtualQueryEx@16		; kernel32.lib(KERNEL32.dll)
+          VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
+          DetourEnumerateImportsEx@16		; detours.lib(modules.obj)
+          _except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__memcpy		; vcruntime.lib(VCRUNTIME140.dll)
+          atexit		; MSVCRT.lib(utility.obj)
+          DetourFindPayloadEx@8		; detours.lib(modules.obj)
+          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          __castguard_check_failure_fastfail		; MSVCRT.lib(guard_support.obj)
+          DetourSetCodeModule@8		; detours.lib(disasm.obj)
+          _InlineInterlockedExchangePointer		; MSVCRT.lib(guard_support.obj)
+          ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ		; MSVCRT.lib(utility.obj)
+          free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _callnewh		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _onexit		; MSVCRT.lib(utility.obj)
+          __scrt_initialize_mta		; MSVCRT.lib(utility_desktop.obj)
+          LoadLibraryExA@12		; kernel32.lib(KERNEL32.dll)
+          ?Copy0F78@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          at_quick_exit		; MSVCRT.lib(utility.obj)
+          ?AdjustTarget@CDetourDis@@IAEPAEPAE0III@Z		; detours.lib(disasm.obj)
+          __scrt_stub_for_initialize_mta		; MSVCRT.lib(utility_desktop.obj)
+          ?CopyBytesPrefix@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _imp__GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          __scrt_dllmain_crt_thread_attach		; MSVCRT.lib(utility.obj)
+          WideCharToMultiByte@32		; kernel32.lib(KERNEL32.dll)
+          ?CopyF2@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _filter_x86_sse2_floating_point_exception_default		; MSVCRT.lib(x86_exception_filter.obj)
+          _imp__VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
+          DetourFreePayload@4		; detours.lib(modules.obj)
+          ?CopyF3@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??0bad_alloc@std@@QAE@XZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?CopyBytes@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??0exception@std@@QAE@ABV01@@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__WideCharToMultiByte@32		; kernel32.lib(KERNEL32.dll)
+          ?Copy0FB8@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_V@YAXPAX@Z		; MSVCRT.lib(delete_array.obj)
+          ??_C@_0BK@NCKKICFJ@GetFileVersionInfoSizeExW@		; dllmain.obj
+          _imp__GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          _CTA2?AVbad_alloc@std@@		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??1bad_array_new_length@std@@UAE@XZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?CopyBytesJump@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_C@_04CDECLEAB@tips@		; hook.obj
+          __castguard_set_user_handler		; MSVCRT.lib(guard_support.obj)
+          _imp____std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          ?CopyVex3@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          _imp__SetLastError@4		; kernel32.lib(KERNEL32.dll)
+          SuspendThread@4		; kernel32.lib(KERNEL32.dll)
+          GetFinalPathNameByHandleA@16		; kernel32.lib(KERNEL32.dll)
+          _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??0CDetourDis@@QAE@PAPAEPAJ@Z		; detours.lib(disasm.obj)
+          __scrt_stub_for_acrt_initialize		; MSVCRT.lib(ucrt_stubs.obj)
+          _imp__LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+          ?__scrt_uninitialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          __scrt_dllmain_crt_thread_detach		; MSVCRT.lib(utility.obj)
+          _imp__VirtualQueryEx@16		; kernel32.lib(KERNEL32.dll)
+          __CastGuardVftablesEnd		; MSVCRT.lib(guard_support.obj)
+          ??_R4type_info@@6B@		; MSVCRT.lib(std_type_info_static.obj)
+          ??_R0?AVexception@std@@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          @_guard_check_icall_nop@4		; MSVCRT.lib(guard_support.obj)
+          __scrt_initialize_winrt		; MSVCRT.lib(utility_desktop.obj)
+          ?CopyXop@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_R0?AVbad_alloc@std@@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          DetourFindFunction@8		; detours.lib(modules.obj)
+          _imp__GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          ??_R0?AVtype_info@@@8		; MSVCRT.lib(std_type_info_static.obj)
+          ??_C@_0N@NAKPIOF@VerFindFileA@		; dllmain.obj
+          __castguard_slow_path_check_nop		; MSVCRT.lib(guard_support.obj)
+          _get_startup_argv_mode		; MSVCRT.lib(argv_mode.obj)
+          ??_C@_0N@BCCPAGOE@?2VERSION?4dll@		; dllmain.obj
+          __castguard_check_failure_debugbreak		; MSVCRT.lib(guard_support.obj)
+          ??0bad_alloc@std@@QAE@ABV01@@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          DetourGetModuleSize@4		; detours.lib(modules.obj)
+          _imp__LoadLibraryExW@12		; kernel32.lib(KERNEL32.dll)
+          _imp__GetLastError@0		; kernel32.lib(KERNEL32.dll)
+          DetourRestoreAfterWithEx@8		; detours.lib(modules.obj)
+          _crt_debugger_hook		; MSVCRT.lib(utility_desktop.obj)
+          ??_C@_0BE@IEOIIDEN@GetFileVersionInfoW@		; dllmain.obj
+          ?StringCchCopyA@@YGJPADIPBD@Z		; detours.lib(modules.obj)
+          __scrt_initialize_crt		; MSVCRT.lib(utility.obj)
+          ??_7bad_alloc@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          __castguard_slow_path_check_debugbreak		; MSVCRT.lib(guard_support.obj)
+          _imp__MessageBoxA@16		; user32.lib(USER32.dll)
+          ??_C@_0BB@INCGOOHJ@VerLanguageNameW@		; dllmain.obj
+          __castguard_check_failure_os_handled		; MSVCRT.lib(guard_support.obj)
+          _imp___cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          GetLastError@0		; kernel32.lib(KERNEL32.dll)
+          __std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__malloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _imp__GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+          __castguard_slow_path_check_fastfail		; MSVCRT.lib(guard_support.obj)
+          ??_Gexception@std@@UAEPAXI@Z		; MSVCRT.lib(throw_bad_alloc.obj)
+          __scrt_stub_for_acrt_thread_attach		; MSVCRT.lib(ucrt_stubs.obj)
+          _imp___execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__GetCurrentThread@0		; kernel32.lib(KERNEL32.dll)
+          LoadLibraryExW@12		; kernel32.lib(KERNEL32.dll)
+          _imp__PathFindExtensionA@4		; Shlwapi.lib(SHLWAPI.dll)
+          __scrt_acquire_startup_lock		; MSVCRT.lib(utility.obj)
+          _imp__SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
+          ??_R4bad_array_new_length@std@@6B@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__GetFileSizeEx@8		; kernel32.lib(KERNEL32.dll)
+          SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
+          __std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          _CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12		; MSVCRT.lib(throw_bad_alloc.obj)
+          memcpy		; vcruntime.lib(VCRUNTIME140.dll)
+          GetFileSizeEx@8		; kernel32.lib(KERNEL32.dll)
+          __scrt_is_managed_app		; MSVCRT.lib(utility_desktop.obj)
+          __local_stdio_printf_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          ??_R3exception@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          __castguard_check_failure_os_handled_fptr		; MSVCRT.lib(guard_support.obj)
+          ?CopyBytesSegment@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          MessageBoxA@16		; user32.lib(USER32.dll)
+          __std_exception_destroy		; vcruntime.lib(VCRUNTIME140.dll)
+          __scrt_stub_for_acrt_thread_detach		; MSVCRT.lib(ucrt_stubs.obj)
+          __scrt_unhandled_exception_filter@4		; MSVCRT.lib(utility_desktop.obj)
+          ReadNoFence		; MSVCRT.lib(guard_support.obj)
+          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          ?CopyVexEvexCommon@CDetourDis@@IAEPAEEPAE0EE@Z		; detours.lib(disasm.obj)
+          DetourGetEntryPoint@4		; detours.lib(modules.obj)
+          __scrt_set_unhandled_exception_filter		; MSVCRT.lib(utility_desktop.obj)
+          ??_R1A@?0A@EA@exception@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          _TI3?AVbad_array_new_length@std@@		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp___register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          VirtualProtectEx@20		; kernel32.lib(KERNEL32.dll)
+          GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          ??_C@_0BL@ONGCLBAH@GetFileVersionInfoByHandle@		; dllmain.obj
+          DetourFindPayload@12		; detours.lib(modules.obj)
+          __guard_xfg_check_icall_fptr		; MSVCRT.lib(guard_support.obj)
+          _imp___configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+          __castguard_slow_path_check_os_handled		; MSVCRT.lib(guard_support.obj)
+          _DllMainCRTStartup@12		; MSVCRT.lib(dll_dllmain.obj)
+          SetLastError@4		; kernel32.lib(KERNEL32.dll)
+          __local_stdio_scanf_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          _imp__VirtualFree@12		; kernel32.lib(KERNEL32.dll)
+          _imp__InitializeSListHead@4		; kernel32.lib(KERNEL32.dll)
+          _imp__WriteFile@20		; kernel32.lib(KERNEL32.dll)
+          VirtualFree@12		; kernel32.lib(KERNEL32.dll)
+          ??_R2exception@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          _initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__ReadFile@20		; kernel32.lib(KERNEL32.dll)
+          ??_C@_04MKBIKCGL@MESS@		; hook.obj
+          _imp___initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?Copy67@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_C@_04HOFNBPFA@?4nsi@		; hook.obj
+          __current_exception_context		; vcruntime.lib(VCRUNTIME140.dll)
+          __report_securityfailure		; MSVCRT.lib(gs_report.obj)
+          ??_C@_0P@GHFPNOJB@bad?5allocation@		; MSVCRT.lib(throw_bad_alloc.obj)
+          ?CopyF7@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          __CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          ??_C@_0BI@FKDAHLLJ@GetFileVersionInfoSizeA@		; dllmain.obj
+          ??1exception@std@@UAE@XZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          ??_Gtype_info@@UAEPAXI@Z		; MSVCRT.lib(std_type_info_static.obj)
+          ??_C@_0BB@JBLOFLKO@VerLanguageNameA@		; dllmain.obj
+          _imp__UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          GetThreadContext@8		; kernel32.lib(KERNEL32.dll)
+          ??_7type_info@@6B@		; MSVCRT.lib(std_type_info_static.obj)
+          _imp____std_exception_copy		; vcruntime.lib(VCRUNTIME140.dll)
+          NtCurrentTeb		; MSVCRT.lib(utility.obj)
+          _configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?StringCchCatA@@YGJPADIPBD@Z		; detours.lib(modules.obj)
+          ??_C@_0BA@JGFCNMMD@VerInstallFileW@		; dllmain.obj
+          ??_R2bad_array_new_length@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp__LoadLibraryExA@12		; kernel32.lib(KERNEL32.dll)
+          InitializeSListHead@4		; kernel32.lib(KERNEL32.dll)
+          _imp__strcmp		; ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          ?CopyVex2@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z		; detours.lib(disasm.obj)
+          ??_R3bad_array_new_length@std@@8		; MSVCRT.lib(throw_bad_alloc.obj)
+          FlushInstructionCache@12		; kernel32.lib(KERNEL32.dll)
+          ?__scrt_throw_std_bad_array_new_length@@YAXXZ		; MSVCRT.lib(throw_bad_alloc.obj)
+          _imp____current_exception		; vcruntime.lib(VCRUNTIME140.dll)
+          __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+          _imp__VirtualProtectEx@20		; kernel32.lib(KERNEL32.dll)
+          _imp__IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          _cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _CxxThrowException@8		; vcruntime.lib(VCRUNTIME140.dll)
+          __raise_securityfailure		; MSVCRT.lib(gs_report.obj)
+          _imp__TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          _imp__memset		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp___initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+  已完成对 /ORDER 选项的处理
+      已丢弃 "`string'" (??_C@_04CDECLEAB@tips@)(从 hook.obj 中)
+      已丢弃 "`string'" (??_C@_04MKBIKCGL@MESS@)(从 hook.obj 中)
+      已丢弃 ___CastGuardVftablesStart(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___CastGuardVftablesEnd(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 __sehtable$_DetourGetContainingModule@4(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourEnumerateModules@4(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourGetEntryPoint@4(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourGetModuleSize@4(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourEnumerateExports@12(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourEnumerateImportsEx@16(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourFindPayload@12(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$_DetourGetSizeOfPayloads@4(从 detours.lib(modules.obj) 中)
+      已丢弃 __sehtable$?GetPayloadSectionFromModule@@YGPAXPAUHINSTANCE__@@@Z(从 detours.lib(modules.obj) 中)
+      已丢弃 ___castguard_check_failure_user_handled_fptr(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::symInfo" (?symInfo@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4U2@A)(从 detours.lib(modules.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO * `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::pSymInfo" (?pSymInfo@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4PAU2@A)(从 detours.lib(modules.obj) 中)
+      已丢弃 "int `struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)'::`2'::failed" (?failed@?1??DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ@4HA)(从 detours.lib(modules.obj) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$4”(从 user32.lib(USER32.dll) 中)
+      已丢弃“.idata$4”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$4”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$4”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$4”(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃 __imp__VirtualProtectEx@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__VirtualQueryEx@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__LoadLibraryExA@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__GetModuleHandleW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__GetStartupInfoW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp__LoadLibraryExW@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 __imp____std_terminate(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __imp____current_exception(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __imp____current_exception_context(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __imp___crt_at_quick_exit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp___crt_atexit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp__terminate(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __imp___register_onexit_function(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$6”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$6”(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃“.idata$6”(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 "int __cdecl WC2MB(int,void const *,int,void const *,int)" (?WC2MB@@YAHHPBXH0H@Z)(从 Conv.obj 中)
+      已丢弃 "int __cdecl CheckCode(char *,int)" (?CheckCode@@YAHPADH@Z)(从 Conv.obj 中)
+      已丢弃 "int __cdecl UTF8216(void *,wchar_t * *,int)" (?UTF8216@@YAHPAXPAPA_WH@Z)(从 Conv.obj 中)
+      已丢弃 "void __cdecl LE2BE(char *,int)" (?LE2BE@@YAXPADH@Z)(从 Conv.obj 中)
+      已丢弃 "unsigned long __cdecl detour_2gb_below(unsigned long)" (?detour_2gb_below@@YAKK@Z)(从 detours.obj 中)
+      已丢弃 "unsigned long __cdecl detour_2gb_above(unsigned long)" (?detour_2gb_above@@YAKK@Z)(从 detours.obj 中)
+      已丢弃 "unsigned char * __cdecl detour_gen_jmp_immediate(unsigned char *,unsigned char *)" (?detour_gen_jmp_immediate@@YAPAEPAE0@Z)(从 detours.obj 中)
+      已丢弃 "unsigned char * __cdecl detour_gen_brk(unsigned char *,unsigned char *)" (?detour_gen_brk@@YAPAEPAE0@Z)(从 detours.obj 中)
+      已丢弃 "unsigned char * __cdecl detour_skip_jmp(unsigned char *,void * *)" (?detour_skip_jmp@@YAPAEPAEPAPAX@Z)(从 detours.obj 中)
+      已丢弃 "int __cdecl detour_does_code_end_function(unsigned char *)" (?detour_does_code_end_function@@YAHPAE@Z)(从 detours.obj 中)
+      已丢弃 "unsigned long __cdecl detour_writable_trampoline_regions(void)" (?detour_writable_trampoline_regions@@YAKXZ)(从 detours.obj 中)
+      已丢弃 "void __cdecl detour_runnable_trampoline_regions(void)" (?detour_runnable_trampoline_regions@@YAXXZ)(从 detours.obj 中)
+      已丢弃 "unsigned char * __cdecl detour_alloc_round_down_to_region(unsigned char *)" (?detour_alloc_round_down_to_region@@YAPAEPAE@Z)(从 detours.obj 中)
+      已丢弃 "unsigned char * __cdecl detour_alloc_round_up_to_region(unsigned char *)" (?detour_alloc_round_up_to_region@@YAPAEPAE@Z)(从 detours.obj 中)
+      已丢弃 "void * __cdecl detour_alloc_region_from_lo(unsigned char *,unsigned char *)" (?detour_alloc_region_from_lo@@YAPAXPAE0@Z)(从 detours.obj 中)
+      已丢弃 "void * __cdecl detour_alloc_region_from_hi(unsigned char *,unsigned char *)" (?detour_alloc_region_from_hi@@YAPAXPAE0@Z)(从 detours.obj 中)
+      已丢弃 "struct _DETOUR_TRAMPOLINE * __cdecl detour_alloc_trampoline(unsigned char *)" (?detour_alloc_trampoline@@YAPAU_DETOUR_TRAMPOLINE@@PAE@Z)(从 detours.obj 中)
+      已丢弃 "void __cdecl detour_free_trampoline(struct _DETOUR_TRAMPOLINE *)" (?detour_free_trampoline@@YAXPAU_DETOUR_TRAMPOLINE@@@Z)(从 detours.obj 中)
+      已丢弃 "int __cdecl detour_is_region_empty(struct DETOUR_REGION *)" (?detour_is_region_empty@@YAHPAUDETOUR_REGION@@@Z)(从 detours.obj 中)
+      已丢弃 "void __cdecl detour_free_unused_trampoline_regions(void)" (?detour_free_unused_trampoline_regions@@YAXXZ)(从 detours.obj 中)
+      已丢弃 _DetourCodeFromPointer@8(从 detours.obj 中)
+      已丢弃 _DetourTransactionAbort@0(从 detours.obj 中)
+      已丢弃 _DetourTransactionCommit@0(从 detours.obj 中)
+      已丢弃 "unsigned char __cdecl detour_align_from_trampoline(struct _DETOUR_TRAMPOLINE *,unsigned char)" (?detour_align_from_trampoline@@YAEPAU_DETOUR_TRAMPOLINE@@E@Z)(从 detours.obj 中)
+      已丢弃 "long __cdecl detour_align_from_target(struct _DETOUR_TRAMPOLINE *,long)" (?detour_align_from_target@@YAJPAU_DETOUR_TRAMPOLINE@@J@Z)(从 detours.obj 中)
+      已丢弃 _DetourAttach@8(从 detours.obj 中)
+      已丢弃 "int __cdecl WC2MB(int,void const *,int,void const *,int)" (?WC2MB@@YAHHPBXH0H@Z)(从 dllmain.obj 中)
+      已丢弃 "void __cdecl HookOn(void)" (?HookOn@@YAXXZ)(从 dllmain.obj 中)
+      已丢弃 "void __cdecl HookOff(void)" (?HookOff@@YAXXZ)(从 dllmain.obj 中)
+      已丢弃 "public: void __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::__autoclassinit2(unsigned int)" (?__autoclassinit2@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAEXI@Z)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::operator bool(void)const " (??B?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QBE_NXZ)(从 dllmain.obj 中)
+      已丢弃 "public: char * __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::get(void)const " (?get@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QBEPADXZ)(从 dllmain.obj 中)
+      已丢弃 "public: char & __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::operator[](unsigned int)const " (??A?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QBEAADI@Z)(从 dllmain.obj 中)
+      已丢弃 "public: struct std::default_delete<char [0]> & __thiscall std::_Compressed_pair<struct std::default_delete<char [0]>,char *,1>::_Get_first(void)" (?_Get_first@?$_Compressed_pair@U?$default_delete@$$BY0A@D@std@@PAD$00@std@@QAEAAU?$default_delete@$$BY0A@D@2@XZ)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::unique_ptr<char [0],struct std::default_delete<char [0]> ><struct std::default_delete<char [0]>,0>(std::nullptr_t)" (??$?0U?$default_delete@$$BY0A@D@std@@$0A@@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAE@$$T@Z)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::unique_ptr<char [0],struct std::default_delete<char [0]> ><struct std::default_delete<char [0]>,0>(class std::unique_ptr<char [0],struct std::default_delete<char [0]> > &&)" (??$?0U?$default_delete@$$BY0A@D@std@@$0A@@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAE@$$QAV01@@Z)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::unique_ptr<char [0],struct std::default_delete<char [0]> ><char *,struct std::default_delete<char [0]>,0,0>(char *)" (??$?0PADU?$default_delete@$$BY0A@D@std@@$0A@$0A@@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAE@PAD@Z)(从 dllmain.obj 中)
+      已丢弃 "public: void __thiscall std::default_delete<char [0]>::operator()<char,0>(char *)const " (??$?RD$0A@@?$default_delete@$$BY0A@D@std@@QBEXPAD@Z)(从 dllmain.obj 中)
+      已丢弃 "public: char * __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::release(void)" (?release@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAEPADXZ)(从 dllmain.obj 中)
+      已丢弃 "public: struct std::default_delete<char [0]> & __thiscall std::unique_ptr<char [0],struct std::default_delete<char [0]> >::get_deleter(void)" (?get_deleter@?$unique_ptr@$$BY0A@DU?$default_delete@$$BY0A@D@std@@@std@@QAEAAU?$default_delete@$$BY0A@D@2@XZ)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::_Compressed_pair<struct std::default_delete<char [0]>,char *,1>::_Compressed_pair<struct std::default_delete<char [0]>,char *,1><>(struct std::_Zero_then_variadic_args_t)" (??$?0$$V@?$_Compressed_pair@U?$default_delete@$$BY0A@D@std@@PAD$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z)(从 dllmain.obj 中)
+      已丢弃 "struct std::default_delete<char [0]> && __cdecl std::forward<struct std::default_delete<char [0]> >(struct std::default_delete<char [0]> &)" (??$forward@U?$default_delete@$$BY0A@D@std@@@std@@YA$$QAU?$default_delete@$$BY0A@D@0@AAU10@@Z)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::_Compressed_pair<struct std::default_delete<char [0]>,char *,1>::_Compressed_pair<struct std::default_delete<char [0]>,char *,1><struct std::default_delete<char [0]>,char *>(struct std::_One_then_variadic_args_t,struct std::default_delete<char [0]> &&,char * &&)" (??$?0U?$default_delete@$$BY0A@D@std@@PAD@?$_Compressed_pair@U?$default_delete@$$BY0A@D@std@@PAD$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$default_delete@$$BY0A@D@1@$$QAPAD@Z)(从 dllmain.obj 中)
+      已丢弃 "public: __thiscall std::_Compressed_pair<struct std::default_delete<char [0]>,char *,1>::_Compressed_pair<struct std::default_delete<char [0]>,char *,1><char * &>(struct std::_Zero_then_variadic_args_t,char * &)" (??$?0AAPAD@?$_Compressed_pair@U?$default_delete@$$BY0A@D@std@@PAD$00@std@@QAE@U_Zero_then_variadic_args_t@1@AAPAD@Z)(从 dllmain.obj 中)
+      已丢弃 "char * & __cdecl std::forward<char * &>(char * &)" (??$forward@AAPAD@std@@YAAAPADAAPAD@Z)(从 dllmain.obj 中)
+      已丢弃 "char * __cdecl std::exchange<char *,std::nullptr_t>(char * &,std::nullptr_t &&)" (??$exchange@PAD$$T@std@@YAPADAAPAD$$QA$$T@Z)(从 dllmain.obj 中)
+      已丢弃 "char * && __cdecl std::forward<char *>(char * &)" (??$forward@PAD@std@@YA$$QAPADAAPAD@Z)(从 dllmain.obj 中)
+      已丢弃 _MultiByteToWideChar@24(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _WideCharToMultiByte@32(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualProtect@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualFree@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetCurrentProcess@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualAlloc@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetCurrentThreadId@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _SuspendThread@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _ResumeThread@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetLastError@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetCurrentThread@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualProtectEx@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetThreadContext@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _FlushInstructionCache@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _SetThreadContext@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualQuery@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _VirtualQueryEx@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _ReadFile@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetFileSizeEx@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _WriteFile@20(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _SetFilePointer@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetModuleHandleA@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetSystemDirectoryA@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _LoadLibraryA@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _FreeLibrary@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetFinalPathNameByHandleA@16(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetProcAddress@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _MessageBoxA@16(从 user32.lib(USER32.dll) 中)
+      已丢弃 _PathFindExtensionA@4(从 Shlwapi.lib(SHLWAPI.dll) 中)
+      已丢弃 __CRT_INIT@12(从 MSVCRT.lib(dll_dllmain.obj) 中)
+      已丢弃 ___report_rangecheckfailure(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 ___report_securityfailure(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 ___report_securityfailureEx(从 MSVCRT.lib(gs_report.obj) 中)
+      已丢弃 "private: __thiscall std::bad_alloc::bad_alloc(char const * const)" (??0bad_alloc@std@@AAE@QBD@Z)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: __thiscall std::exception::exception(char const * const,int)" (??0exception@std@@QAE@QBDH@Z)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)(从 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      已丢弃 "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 "bool __cdecl is_potentially_valid_image_base(void * const)" (?is_potentially_valid_image_base@@YA_NQAX@Z)(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _NtCurrentTeb(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 __onexit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _at_quick_exit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 _atexit(从 MSVCRT.lib(utility.obj) 中)
+      已丢弃 ___scrt_get_show_window_mode(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_initialize_mta(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_initialize_winrt(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_is_managed_app(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_set_unhandled_exception_filter(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_stub_for_initialize_mta(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 ___scrt_unhandled_exception_filter@4(从 MSVCRT.lib(utility_desktop.obj) 中)
+      已丢弃 __SEH_epilog4(从 MSVCRT.lib(sehprolg4.obj) 中)
+      已丢弃 _ReadNoFence(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 _ReadPointerNoFence(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 __InlineInterlockedExchangePointer(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_debugbreak(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_fastfail(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_nop(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_os_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_os_handled_wrapper(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_user_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_check_failure_user_handled_wrapper(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_compat_check(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_set_user_handler(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_debugbreak(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_fastfail(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_nop(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_os_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_check_user_handled(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 ___castguard_slow_path_compat_check(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 __guard_icall_checks_enforced(从 MSVCRT.lib(guard_support.obj) 中)
+      已丢弃 "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)(从 MSVCRT.lib(std_type_info_static.obj) 中)
+      已丢弃 "protected: unsigned char * __thiscall CDetourDis::CopyBytesRax(struct CDetourDis::COPYENTRY const *,unsigned char *,unsigned char *)" (?CopyBytesRax@CDetourDis@@IAEPAEPBUCOPYENTRY@1@PAE1@Z)(从 detours.lib(disasm.obj) 中)
+      已丢弃 "public: static int __cdecl CDetourDis::SanityCheckSystem(void)" (?SanityCheckSystem@CDetourDis@@SAHXZ)(从 detours.lib(disasm.obj) 中)
+      已丢弃 "public: static int __cdecl CDetourDis::SetCodeModule(unsigned char *,unsigned char *,int)" (?SetCodeModule@CDetourDis@@SAHPAE0H@Z)(从 detours.lib(disasm.obj) 中)
+      已丢弃 _DetourSetCodeModule@8(从 detours.lib(disasm.obj) 中)
+      已丢弃 "int __stdcall DetourEnumerateImportsThunk(void *,unsigned long,char const *,void * *)" (?DetourEnumerateImportsThunk@@YGHPAXKPBDPAPAX@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "struct _DETOUR_SYM_INFO * __cdecl DetourLoadImageHlp(void)" (?DetourLoadImageHlp@@YAPAU_DETOUR_SYM_INFO@@XZ)(从 detours.lib(modules.obj) 中)
+      已丢弃 "void * __stdcall GetPayloadSectionFromModule(struct HINSTANCE__ *)" (?GetPayloadSectionFromModule@@YGPAXPAUHINSTANCE__@@@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "unsigned char * __cdecl RvaAdjust(struct _IMAGE_DOS_HEADER *,unsigned long)" (?RvaAdjust@@YAPAEPAU_IMAGE_DOS_HEADER@@K@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCchCatA(char *,unsigned int,char const *)" (?StringCchCatA@@YGJPADIPBD@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCchCopyA(char *,unsigned int,char const *)" (?StringCchCopyA@@YGJPADIPBD@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringCopyWorkerA(char *,unsigned int,unsigned int *,char const *,unsigned int)" (?StringCopyWorkerA@@YGJPADIPAIPBDI@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringLengthWorkerA(char const *,unsigned int,unsigned int *)" (?StringLengthWorkerA@@YGJPBDIPAI@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringValidateDestA(char const *,unsigned int,unsigned int)" (?StringValidateDestA@@YGJPBDII@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 "long __stdcall StringValidateDestAndLengthA(char const *,unsigned int,unsigned int *,unsigned int)" (?StringValidateDestAndLengthA@@YGJPBDIPAII@Z)(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateExports@12(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateImports@16(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateImportsEx@16(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourEnumerateModules@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindFunction@8(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindPayload@12(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFindPayloadEx@8(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourFreePayload@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetContainingModule@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetEntryPoint@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetModuleSize@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourGetSizeOfPayloads@4(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourRestoreAfterWith@0(从 detours.lib(modules.obj) 中)
+      已丢弃 _DetourRestoreAfterWithEx@8(从 detours.lib(modules.obj) 中)
+      已丢弃 ___std_terminate(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 ___current_exception(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 ___current_exception_context(从 vcruntime.lib(VCRUNTIME140.dll) 中)
+      已丢弃 __register_onexit_function(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __crt_atexit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 __crt_at_quick_exit(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 _terminate(从 ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll) 中)
+      已丢弃 _strcmp(从 ucrt.lib(api-ms-win-crt-string-l1-1-0.dll) 中)
+      已丢弃 _UnhandledExceptionFilter@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _SetUnhandledExceptionFilter@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _TerminateProcess@8(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _IsProcessorFeaturePresent@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _QueryPerformanceCounter@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetCurrentProcessId@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetSystemTimeAsFileTime@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _InitializeSListHead@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _IsDebuggerPresent@0(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetStartupInfoW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _GetModuleHandleW@4(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _LoadLibraryExA@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 _LoadLibraryExW@12(从 kernel32.lib(KERNEL32.dll) 中)
+      已丢弃 ___guard_xfg_check_icall_fptr(从 MSVCRT.lib(guard_support.obj) 中)
+    已选择符号:
+      ___scrt_stub_for_acrt_initialize (在 MSVCRT.lib(ucrt_stubs.obj) 中)
+    已替换符号:
+      ___scrt_stub_for_acrt_uninitialize_critical (在 MSVCRT.lib(ucrt_stubs.obj) 中)
+      ___scrt_stub_for_acrt_uninitialize (在 MSVCRT.lib(ucrt_stubs.obj) 中)
+      ___scrt_stub_for_acrt_thread_attach (在 MSVCRT.lib(ucrt_stubs.obj) 中)
+      ___scrt_stub_for_acrt_thread_detach (在 MSVCRT.lib(ucrt_stubs.obj) 中)
+    已选择符号:
+      "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ) (在 MSVCRT.lib(throw_bad_alloc.obj) 中)
+    已替换符号:
+      "public: virtual __thiscall std::bad_array_new_length::~bad_array_new_length(void)" (??1bad_array_new_length@std@@UAE@XZ) (在 MSVCRT.lib(throw_bad_alloc.obj) 中)
+    已选择符号:
+      "public: virtual void * __thiscall std::bad_alloc::`scalar deleting destructor'(unsigned int)" (??_Gbad_alloc@std@@UAEPAXI@Z) (在 MSVCRT.lib(throw_bad_alloc.obj) 中)
+    已替换符号:
+      "public: virtual void * __thiscall std::bad_array_new_length::`scalar deleting destructor'(unsigned int)" (??_Gbad_array_new_length@std@@UAEPAXI@Z) (在 MSVCRT.lib(throw_bad_alloc.obj) 中)
+      "public: virtual void * __thiscall std::exception::`scalar deleting destructor'(unsigned int)" (??_Gexception@std@@UAEPAXI@Z) (在 MSVCRT.lib(throw_bad_alloc.obj) 中)
+    ICF 总节省量: 119 字节
+  正在启动传递 2
+       * CIL library *(* CIL module *)
+       * linker generated manifest res *
+       UniFixHM.exp
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       Shlwapi.lib(SHLWAPI.dll)
+       Shlwapi.lib(SHLWAPI.dll)
+       Shlwapi.lib(SHLWAPI.dll)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(default_local_stdio_options.obj)
+       MSVCRT.lib(std_type_info_static.obj)
+       MSVCRT.lib(tncleanup.obj)
+       MSVCRT.lib(delete_array.obj)
+       MSVCRT.lib(delete_scalar.obj)
+       MSVCRT.lib(delete_scalar_size.obj)
+       MSVCRT.lib(new_array.obj)
+       MSVCRT.lib(new_scalar.obj)
+       MSVCRT.lib(throw_bad_alloc.obj)
+       MSVCRT.lib(dll_dllmain.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(ucrt_stubs.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(guard_support.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(dyn_tls_init.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(cpu_disp.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       MSVCRT.lib(initsect.obj)
+       MSVCRT.lib(chandler4gs.obj)
+       MSVCRT.lib(secchk.obj)
+       MSVCRT.lib(x86_exception_filter.obj)
+       MSVCRT.lib(sehprolg4.obj)
+       detours.lib(modules.obj)
+       detours.lib(disasm.obj)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+  已完成传递 2
+  UniFixHM.vcxproj -> C:\Users\3_5105\Desktop\UniFixHM\Release\UniFixHM.dll

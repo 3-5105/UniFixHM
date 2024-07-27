@@ -251,29 +251,40 @@ BOOL WINAPI DT_WriteFile(
 ) {
     if (IsSupportedFile(hFile))
     {
-        std::unique_ptr<char[]> rlpBuffer(new char[nNumberOfBytesToWrite + 1]); // 使用智能指针管理内存
-        memcpy(rlpBuffer.get(), lpBuffer, nNumberOfBytesToWrite); // 拷贝数据
-        rlpBuffer[nNumberOfBytesToWrite] = '\0'; // 确保字符串以空字符结尾
+        // 欺骗
+        *lpNumberOfBytesWritten = nNumberOfBytesToWrite;
 
-        int nLen = MultiByteToWideChar(CP_ACP, 0, rlpBuffer.get(), -1, NULL, 0); // 转换编码
+        // 计算源串转UTF16LE所需空间
+        int nLen = MultiByteToWideChar(CP_ACP, 0, (LPCCH)lpBuffer, nNumberOfBytesToWrite, NULL, 0);
         if (nLen == 0)
-            return FALSE; // 转换失败，返回FALSE
+            return FALSE; 
 
-        std::unique_ptr<wchar_t[]> wideStr(new wchar_t[nLen + 1]); // 使用智能指针管理内存
-        if (MultiByteToWideChar(CP_ACP, 0, rlpBuffer.get(), -1, wideStr.get(), nLen) == 0)
-            return FALSE; // 转换失败，返回FALSE
-        wideStr[nLen] = '\0'; // 确保字符串以空字符结尾
+        // 源串转UTF16LE
+        wchar_t * wideStr = new wchar_t[nLen]; 
+        if (!MultiByteToWideChar(CP_ACP, 0, (LPCCH)lpBuffer, nNumberOfBytesToWrite, wideStr, nLen))
+            return FALSE;
 
-        nLen = WC2MB(CP_UTF8, wideStr.get()); // 转换编码
-        if (nLen == 0)
-            return FALSE; // 转换失败，返回FALSE
+        // 计算UTF16LE串转UTF8所需空间
+        int mLen = WC2MB(CP_UTF8, wideStr); 
+        if (mLen == 0)
+            return FALSE; 
 
-        std::unique_ptr<char[]> multiByteStr(new char[nLen + 1]); // 使用智能指针管理内存
-        if (WC2MB(CP_UTF8, wideStr.get(), -1, multiByteStr.get(), nLen) == 0)
-            return FALSE; // 转换失败，返回FALSE
-        multiByteStr[nLen] = '\0'; // 确保字符串以空字符结尾
+        // UTF16LE串转UTF8
+        char* multiByteStr = new char[mLen + 3];
+        if (!WC2MB(CP_UTF8, wideStr, nLen, multiByteStr + 3, mLen))
+            return FALSE;
+        delete[] wideStr;
 
-        return OG_WriteFile(hFile, multiByteStr.get(), nLen + 1, lpNumberOfBytesWritten, lpOverlapped); // 调用WINAPI写文件函数
+        // 添加BOM
+        multiByteStr[0] = 0xEF;
+        multiByteStr[1] = 0xBB;
+        multiByteStr[2] = 0xBF;
+
+        // 写入
+        DWORD tub;
+        BOOL res = OG_WriteFile(hFile, multiByteStr, mLen + 2, &tub, lpOverlapped); // 调用WINAPI写文件函数
+        delete[] multiByteStr;
+        return res;
     }
     return OG_WriteFile(hFile, lpBuffer, nNumberOfBytesToWrite, lpNumberOfBytesWritten, lpOverlapped); // 调用原始WINAPI写文件函数
 }

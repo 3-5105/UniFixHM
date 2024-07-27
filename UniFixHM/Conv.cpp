@@ -21,9 +21,11 @@ int CheckCode(char* pData, int dataSize) {
         return -1;
 
     // ºÏ≤ÈUTF-8 BOM
-    if (dataSize >= 3 && static_cast<unsigned char>(pData[0]) == 0xEF &&
+    if (
+        static_cast<unsigned char>(pData[0]) == 0xEF &&
         static_cast<unsigned char>(pData[1]) == 0xBB &&
-        static_cast<unsigned char>(pData[2]) == 0xBF)
+        static_cast<unsigned char>(pData[2]) == 0xBF &&
+        dataSize >= 3)
         return CODE_UTF8_BOM;
 
     // ºÏ≤ÈUTF-16 –°∂À–Ú
